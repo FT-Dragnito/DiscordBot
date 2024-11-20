@@ -1,0 +1,6 @@
+.env
+
+logs/
+
+bin/
+obj/

@@ -1,0 +1,6 @@
+services:
+  discordbot:
+    build:
+      context: .
+    container_name: discordbot
+    restart: unless-stopped
