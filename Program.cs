@@ -29,6 +29,7 @@ namespace DiscordBot
                 .ConfigureServices((context, services) =>
                 {
                     services.AddSingleton<Services.DiscordService>();
+                    services.AddSingleton<Services.UptimeService>();
                     services.AddHostedService<Startup>();
                 })
                 .Build();
