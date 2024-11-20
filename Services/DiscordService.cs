@@ -42,6 +42,7 @@ namespace DiscordBot.Services
 
             slashCommands.RegisterCommands<Commands.GeneralCommands>();
             slashCommands.RegisterCommands<Commands.AdminCommands>();
+            slashCommands.RegisterCommands<Commands.EntertainmentCommands>();
 
             _discordClient.Ready += OnClientReady;
 
